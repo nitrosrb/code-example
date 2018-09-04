@@ -1,0 +1,23 @@
+.nav {
+  background-color: $colour-secondary;
+  display: block;
+  height: 100%;
+
+  &__logo {
+    display: block;
+    margin: 25px auto;
+  }
+
+  &__links {
+    list-style: none;
+    padding: 10px;
+
+    &--active {
+      font-weight: bold;
+    }
+
+    .glyphicon {
+      margin-right: 5px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.header {
+  $header-height: 50px;
+
+  border-bottom: 1px solid $colour-stroke;
+  height: $header-height;
+  line-height: $header-height;
+
+  &__title {
+    font-size: 24px;
+  }
+
+  &__log-out {
+    color: $colour-error;
+    float: right;
+
+    &:hover {
+      color: $colour-error;
+      text-decoration: none;
+    }
+
+    .glyphicon {
+      padding-left: 5px;
+      top: 2px;
+    }
+  }
+}

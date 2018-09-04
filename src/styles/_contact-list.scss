@@ -1,0 +1,50 @@
+.contacts-list {
+  list-style: none;
+  padding: 0;
+
+  &__contact {
+    $height: 50px;
+
+    border-bottom: 1px solid $colour-stroke;
+    cursor: pointer;
+    line-height: $height;
+    min-height: $height;
+    padding: 0 30px;
+  }
+
+  &__name {
+    display: inline-block;
+    font-weight: 200;
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+
+  &__tag {
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+
+    &--friends {
+      background-color: $tag-blue;
+    }
+
+    &--family {
+      background-color: $tag-red;
+    }
+  }
+
+  &__email {
+    font-weight: 200;
+    margin-left: 120px;
+  }
+
+  &__more-details {
+    display: none;
+    font-weight: 200;
+    margin-bottom: 15px;
+
+    li {
+      line-height: 20px;
+    }
+  }
+}
