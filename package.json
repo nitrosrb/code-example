@@ -1,0 +1,30 @@
+{
+  "name": "code-example",
+  "version": "0.0.1",
+  "author": "@nitrosrb",
+  "description": "A quick code example for giving to people who ask.",
+  "scripts": {
+    "start": "gulp",
+    "deploy": "gulp deploy"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/nitrosrb/code-example",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-if": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-webserver": "latest",
+    "yargs": "^6.3.0"
+  }
+}
